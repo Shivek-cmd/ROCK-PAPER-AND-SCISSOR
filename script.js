@@ -184,6 +184,6 @@ function hideAll() {
   });
   document.querySelector(".hurray").style.display = "flex";
   document.querySelector(".winning-button").style.display = "block";
-  document.querySelector(".rule-button").style.bottom = "15px";
-  document.querySelector(".rule-button").style.right = "10px";
+  document.querySelector(".rule-button").style.top = "580px";
+  document.querySelector(".rule-button").style.right = "20px";
 }
