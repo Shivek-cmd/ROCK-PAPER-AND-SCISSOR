@@ -281,19 +281,25 @@ body {
 }
 
 /* Styling for the play-again button */
+.winning-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the play-again button */
 .winning-button button {
   border-radius: 8px; /* Border radius */
   padding: 10px; /* Padding inside the button */
-  background-color: white; /* Background color of the button */
-  width: 180px; /* Width of the button */
+  background-color: white; /* Background color of the button */ /* Width of the button */
   /* Margin around the button */
   font-weight: 700; /* Font weight of th button text */
   cursor: pointer; /* Cursor style on hover */
   color: #6b6b6b; /* Text color */
-  margin-top: 50px; /* Margin from the top */
-  margin-left: 580px; /* Margin from the left */
+  width: 180px;
   border: none;
 }
+
 
 /* Add this rule to apply scaling effect to all buttons when hovered */
 button:hover {
