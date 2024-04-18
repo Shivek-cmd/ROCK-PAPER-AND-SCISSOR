@@ -186,4 +186,5 @@ function hideAll() {
   document.querySelector(".winning-button").style.display = "block";
   document.querySelector(".rule-button").style.top = "580px";
   document.querySelector(".rule-button").style.right = "20px";
+   document.querySelector(".winning-button").style.display = "flex";
 }
